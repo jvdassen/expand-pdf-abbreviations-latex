@@ -1,0 +1,16 @@
+{
+  "name": "abbreviations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "abbrToItems.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.8.1",
+    "jsdom": "^16.4.0"
+  }
+}
