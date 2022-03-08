@@ -12,7 +12,7 @@ async function translate (lines) {
   var abbreviations = await getAbbrEntriesFromWiki()
   for(line of lines) {
     if(line) {
-      console.log(`\\abr{${line}}{${abbreviations[line]}}`)
+      console.log(`\\abr{${line}}{${abbreviations[line] || '..'}}`)
     }
   }
 }
